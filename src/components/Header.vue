@@ -56,6 +56,7 @@
                           type="email"
                           class="form-control"
                           id="exampleInputEmail1"
+                          placeholder="Enter Email"
                           aria-describedby="emailHelp"
                         />
                       </div>
@@ -66,6 +67,7 @@
                         <input
                           type="password"
                           class="form-control"
+                          placeholder="Enter Password"
                           id="exampleInputPassword1"
                         />
                       </div>
@@ -76,7 +78,7 @@
                           id="exampleCheck1"
                         />
                         <label class="form-check-label" for="exampleCheck1"
-                          >Check me out</label
+                          >Remember me</label
                         >
                       </div>
                     </form>
@@ -119,6 +121,7 @@
                           type="email"
                           class="form-control"
                           id="exampleInputName1"
+                          placeholder="Enter Name"
                           aria-describedby="emailHelp"
                         />
                       </div>
@@ -129,6 +132,7 @@
                         <input
                           type="email"
                           class="form-control"
+                          placeholder="Enter Email"
                           id="exampleInputEmail1"
                           aria-describedby="emailHelp"
                         />
@@ -140,24 +144,15 @@
                         <input
                           type="password"
                           class="form-control"
+                          placeholder="Enter Password"
                           id="exampleInputPassword1"
                         />
-                      </div>
-                      <div class="mb-3 form-check text-initial">
-                        <input
-                          type="checkbox"
-                          class="form-check-input"
-                          id="exampleCheck1"
-                        />
-                        <label class="form-check-label" for="exampleCheck1"
-                          >Check me out</label
-                        >
                       </div>
                     </form>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger">
-                      Save changes
+                      Submit
                     </button>
                   </div>
                 </div>
