@@ -1,184 +1,234 @@
 <template>
   <section class="header">
     <div class="container">
-      <div class="header-left">
-        <ul class="pull-left">
-          <li>
-            <a href="#">
-              <i class="fa fa-phone" aria-hidden="true"></i> +992 563 542
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-envelope" aria-hidden="true"></i>info@mail.com
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="header-right pull-right">
-        <ul>
-          <li class="reg">
-            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-              Register
-            </a>
-            /
-            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-              Log in
-            </a>
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal1"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog" style="width: 220px">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-danger" id="exampleModalLabel">
-                      Sign in
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <form style="width: 200px; display: contents">
-                      <div class="mb-3 text-initial">
-                        <label for="exampleInputEmail1" class="form-label"
-                          >Email address</label
-                        >
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="exampleInputEmail1"
-                          placeholder="Enter Email"
-                          aria-describedby="emailHelp"
-                        />
-                      </div>
-                      <div class="mb-3 text-initial">
-                        <label for="exampleInputPassword1" class="form-label"
-                          >Password</label
-                        >
-                        <input
-                          type="password"
-                          class="form-control"
-                          placeholder="Enter Password"
-                          id="exampleInputPassword1"
-                        />
-                      </div>
-                      <div class="mb-3 form-check text-initial">
-                        <input
-                          type="checkbox"
-                          class="form-check-input"
-                          id="exampleCheck1"
-                        />
-                        <label class="form-check-label" for="exampleCheck1"
-                          >Remember me</label
-                        >
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger">
-                      Submit
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="modal fade"
-              id="exampleModal2"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-danger" id="exampleModalLabel">
-                      Register
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <form style="width: 1200px; display: contents">
-                      <div class="mb-3 text-initial">
-                        <label for="exampleInputName1" class="form-label"
-                          >Name</label
-                        >
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="exampleInputName1"
-                          placeholder="Enter Name"
-                          aria-describedby="emailHelp"
-                        />
-                      </div>
-                      <div class="mb-3 text-initial">
-                        <label for="exampleInputEmail1" class="form-label"
-                          >Email address</label
-                        >
-                        <input
-                          type="email"
-                          class="form-control"
-                          placeholder="Enter Email"
-                          id="exampleInputEmail1"
-                          aria-describedby="emailHelp"
-                        />
-                      </div>
-                      <div class="mb-3 text-initial">
-                        <label for="exampleInputPassword1" class="form-label"
-                          >Password</label
-                        >
-                        <input
-                          type="password"
-                          class="form-control"
-                          placeholder="Enter Password"
-                          id="exampleInputPassword1"
-                        />
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger">
-                      Submit
-                    </button>
+      <div class="main-head">
+        <div class="header-left">
+          <ul class="pull-left">
+            <li>
+              <a href="#">
+                <i class="fa fa-phone" aria-hidden="true"></i> +992 563 542
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-envelope" aria-hidden="true"></i>info@mail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-right pull-right">
+          <ul>
+            <li class="reg">
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"
+              >
+                Register
+              </a>
+              /
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"
+              >
+                Log in
+              </a>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal1"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" style="width: 220px">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-danger"
+                        id="exampleModalLabel"
+                      >
+                        Sign in
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form style="width: 200px; display: contents">
+                        <div class="mb-3 text-initial">
+                          <label for="exampleInputEmail1" class="form-label"
+                            >Email address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            placeholder="Enter Email"
+                            aria-describedby="emailHelp"
+                          />
+                        </div>
+                        <div class="mb-3 text-initial">
+                          <label for="exampleInputPassword1" class="form-label"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            class="form-control"
+                            placeholder="Enter Password"
+                            id="exampleInputPassword1"
+                          />
+                        </div>
+                        <div class="mb-3 form-check text-initial">
+                          <input
+                            type="checkbox"
+                            class="form-check-input"
+                            id="exampleCheck1"
+                          />
+                          <label class="form-check-label" for="exampleCheck1"
+                            >Remember me</label
+                          >
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-danger">
+                        Submit
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </li>
+              <div
+                class="modal fade"
+                id="exampleModal2"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-danger"
+                        id="exampleModalLabel"
+                      >
+                        Register
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form style="width: 1200px; display: contents">
+                        <div class="mb-3 text-initial">
+                          <label for="exampleInputName1" class="form-label"
+                            >Name</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="exampleInputName1"
+                            placeholder="Enter Name"
+                            aria-describedby="emailHelp"
+                          />
+                        </div>
+                        <div class="mb-3 text-initial">
+                          <label for="exampleInputEmail1" class="form-label"
+                            >Email address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Enter Email"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                          />
+                        </div>
+                        <div class="mb-3 text-initial">
+                          <label for="exampleInputPassword1" class="form-label"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            class="form-control"
+                            placeholder="Enter Password"
+                            id="exampleInputPassword1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-danger">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
 
-          <li>
-            <div class="social-icon">
-              <ul>
-                <li>
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-              </ul>
+            <li>
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="navbar-menu bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Service</a>
+                <a class="nav-link" href="#">Project</a>
+                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link"><i class="lnr lnr-cart"></i></a>
+                <a class="nav-link"><i class="lnr lnr-magnifier"></i></a>
+              </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </nav>
       </div>
     </div>
   </section>
@@ -194,6 +244,10 @@ export default {
 .header {
   padding-top: 20px;
   padding-bottom: 12px;
+}
+.main-head {
+  display: flex;
+  justify-content: space-between;
 }
 .header li a {
   color: #888;
