@@ -198,22 +198,24 @@
       </div>
     </div>
     <!-- navbar -->
-    <div class="navbar-menu bg-light">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="navbar-menu" style="background-color: rgba(115, 112, 216, 1)">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="box-btns__header">
+            <div>
+              <a class="navbar-brand" href="#">Zombiz</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -228,8 +230,8 @@
               </div>
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </div>
   </section>
 </template>
@@ -313,5 +315,12 @@ export default {
 }
 label {
   font-weight: bold;
+}
+.navbar-menu .navbar a {
+  color: #fff;
+}
+.box-btns__header {
+  display: flex;
+  justify-content: space-between;
 }
 </style>
