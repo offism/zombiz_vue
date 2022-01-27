@@ -17,14 +17,14 @@
         <div class="carousel-item active">
           <img
             class="d-block w-100 img-fluid"
-            src="./../../../public/images/banner/banner1.jpg"
+            src="./../../../public/images/banner/banner4.jpg"
             alt="First slide"
           />
         </div>
         <div class="carousel-item">
           <img
             class="d-block w-100 img-fluid"
-            src="./../../../public/images/banner/banner1.jpg"
+            src="./../../../public/images/banner/banner3.jpg"
             alt="Third slide"
           />
         </div>
@@ -62,7 +62,8 @@ export default {
 <style scoped>
 .carousel-control-prev,
 .carousel-control-next {
-  height: 12%;
+  transition: 0.3s ease all;
+  height: 11%;
   width: 6%;
   border-radius: 50%;
   background-color: transparent;
@@ -77,7 +78,7 @@ export default {
   position: absolute;
   display: flex;
   top: 70%;
-  left: 10%;
+  left: 11%;
 }
 .carousel-control-next span,
 .carousel-control-prev span {
@@ -86,7 +87,7 @@ export default {
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(256, 256, 256, 0.4);
 }
 .carousel-control-prev:hover span,
 .carousel-control-next:hover span {

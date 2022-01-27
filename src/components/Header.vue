@@ -245,7 +245,6 @@ export default {
 <style scoped>
 .header {
   padding-top: 20px;
-  padding-bottom: 12px;
 }
 .main-head {
   display: flex;
@@ -316,6 +315,7 @@ export default {
 label {
   font-weight: bold;
 }
+
 .navbar-menu .navbar a {
   color: #fff;
 }
