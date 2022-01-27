@@ -12,7 +12,6 @@
           class="active"
         ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -37,7 +36,6 @@
         data-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only text-black">Previous</span>
       </a>
       <a
         class="carousel-control-next"
@@ -46,7 +44,6 @@
         data-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only text-black">Next</span>
       </a>
     </div>
   </section>
@@ -58,4 +55,22 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 12%;
+  width: 6%;
+  border-radius: 50%;
+}
+.carousel-control-prev {
+  position: absolute;
+  top: 70%;
+  left: 7%;
+}
+.carousel-control-next {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+</style>
