@@ -35,7 +35,9 @@
         role="button"
         data-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control__prev-icon" aria-hidden="true">
+          <i class="lnr lnr-chevron-left"></i>
+        </span>
       </a>
       <a
         class="carousel-control-next"
@@ -43,7 +45,9 @@
         role="button"
         data-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control__next-icon" aria-hidden="true">
+          <i class="lnr lnr-chevron-right"></i>
+        </span>
       </a>
     </div>
   </section>
@@ -58,19 +62,34 @@ export default {
 <style scoped>
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: rgba(0, 0, 0, 0.4);
   height: 12%;
   width: 6%;
   border-radius: 50%;
+  background-color: transparent;
 }
 .carousel-control-prev {
   position: absolute;
+  display: flex;
   top: 70%;
   left: 7%;
 }
 .carousel-control-next {
   position: absolute;
+  display: flex;
   top: 70%;
   left: 10%;
+}
+.carousel-control-next span,
+.carousel-control-prev span {
+  font-size: 20px;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.carousel-control-prev:hover span,
+.carousel-control-next:hover span {
+  font-size: 35px;
 }
 </style>
