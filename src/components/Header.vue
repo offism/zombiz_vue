@@ -202,7 +202,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <div class="box-btns__header">
-            <div>
+            <div class="box-brand__left">
               <a class="navbar-brand" href="#">Zombiz</a>
               <button
                 class="navbar-toggler"
@@ -320,7 +320,15 @@ label {
   color: #fff;
 }
 .box-btns__header {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  width: 100%;
+}
+.box-brand__left {
+  display: inline-block;
+  float: left;
+}
+#navbarNavAltMarkup {
+  display: inline-block;
+  float: right;
 }
 </style>
