@@ -1,16 +1,19 @@
 <template>
-  <Header/>
+  <Header />
+  <ConsultingHead />
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from "./components/Header.vue";
+import ConsultingHead from "./components/ConsultingHeadPart/ConsultingHead.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Header
-  }
-}
+    Header,
+    ConsultingHead,
+  },
+};
 </script>
 
 <style>
