@@ -16,17 +16,27 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            class="d-block w-100 img-fluid"
+            class="curtain__img d-block w-100 img-fluid"
             src="./../../../public/images/banner/banner4.jpg"
             alt="First slide"
           />
+          <div class="curtain__img1"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Business Centre</h5>
+            <p>load 1</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img
-            class="d-block w-100 img-fluid"
+            class="curtain__img d-block w-100 img-fluid"
             src="./../../../public/images/banner/banner3.jpg"
             alt="Third slide"
           />
+          <div class="curtain__img2"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Usee Centre</h5>
+            <p>load 2</p>
+          </div>
         </div>
       </div>
       <a
@@ -92,5 +102,9 @@ export default {
 .carousel-control-prev:hover span,
 .carousel-control-next:hover span {
   font-size: 35px;
+}
+
+.curtain__img {
+  background-color: rgba(115, 112, 215, 0.6);
 }
 </style>
