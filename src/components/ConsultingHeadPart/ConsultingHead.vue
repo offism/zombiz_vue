@@ -16,8 +16,8 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            class="curtain__img d-block w-100 img-fluid"
-            src="./../../../public/images/banner/banner4.jpg"
+            class="curtain__img d-block w-100"
+            src="./../../../public/images/banner/banner1.jpg"
             alt="First slide"
           />
           <div class="curtain__img1"></div>
@@ -28,8 +28,8 @@
         </div>
         <div class="carousel-item">
           <img
-            class="curtain__img d-block w-100 img-fluid"
-            src="./../../../public/images/banner/banner3.jpg"
+            class="curtain__img d-block w-100"
+            src="./../../../public/images/banner/banner5.jpg"
             alt="Third slide"
           />
           <div class="curtain__img2"></div>
@@ -103,8 +103,24 @@ export default {
 .carousel-control-next:hover span {
   font-size: 35px;
 }
-
-.curtain__img {
-  background-color: rgba(115, 112, 215, 0.6);
+.carousel-inner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  width: 100%;
+  height: 100%;
+  background: rgba(115, 112, 215, 0.6);
+  opacity: 0.7;
+  z-index: 1;
 }
+.carousel-inner {
+  position: relative;
+}
+.carousel-inner > * {
+  z-index: 10;
+  position: relative;
+}
+/* rgba(115, 112, 215, 0.6), */
 </style>
