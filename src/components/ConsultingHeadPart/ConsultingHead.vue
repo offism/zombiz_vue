@@ -2,7 +2,7 @@
   <section>
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide carousel-fade"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">
