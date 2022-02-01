@@ -16,24 +16,22 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            class="curtain__img d-block w-100"
-            src="./../../../public/images/banner/banner1.jpg"
+            class="curtain__img w-100"
+            src="./../../../public/images/banner/banner9.jpg"
             alt="First slide"
           />
-          <div class="curtain__img1"></div>
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h5>Business Centre</h5>
             <p>load 1</p>
           </div>
         </div>
         <div class="carousel-item">
           <img
-            class="curtain__img d-block w-100"
+            class="curtain__img w-100"
             src="./../../../public/images/banner/banner5.jpg"
             alt="Third slide"
           />
-          <div class="curtain__img2"></div>
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h5>Usee Centre</h5>
             <p>load 2</p>
           </div>
@@ -105,22 +103,26 @@ export default {
 }
 .carousel-inner::after {
   content: "";
-  display: block;
+  display: flex;
   position: absolute;
-  /* top: 0; */
-  /* left: 0; */
   width: 100%;
   height: 100%;
   background: rgba(115, 112, 215, 0.6);
   opacity: 0.7;
   z-index: 1;
 }
-.carousel-inner {
+/* .carousel-item {
   position: relative;
 }
-.carousel-inner > * {
-  z-index: 10;
-  position: relative;
+
+.carousel-caption * {
+  z-index: 2;
+  position: absolute;
+} */
+.carousel-caption {
+  display: flex;
+  position: absolute;
+  bottom: 50%;
+  z-index: 3;
 }
-/* rgba(115, 112, 215, 0.6), */
 </style>
