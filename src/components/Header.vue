@@ -198,7 +198,8 @@
       </div>
     </div>
     <!-- navbar -->
-    <div class="navbar-menu" style="background-color: rgba(115, 112, 216, 1)">
+    <div class="navbar-menu">
+      <!-- <header class="sticky"> -->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <div class="box-btns__header">
@@ -233,6 +234,7 @@
         </div>
       </nav>
     </div>
+    <!-- </header> -->
   </section>
 </template>
 
@@ -243,6 +245,26 @@ export default {
 </script>
 
 <style scoped>
+.navbar-menu {
+  position: fixed;
+  /* top: 20vh; */
+  /* left: 0; */
+  width: 100%;
+}
+/* .sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: auto;
+} */
+nav {
+  background-color: rgba(115, 112, 216, 1);
+}
+.box-btns__header,
+header {
+  color: #fff;
+  /* position: fixed; */
+}
 .header {
   padding-top: 20px;
 }
