@@ -247,6 +247,7 @@ export default {
 <style scoped>
 .navbar-menu {
   position: fixed;
+  z-index: 1000;
   /* top: 20vh; */
   /* left: 0; */
   width: 100%;
@@ -260,11 +261,6 @@ export default {
 nav {
   background-color: rgba(115, 112, 216, 1);
 }
-.box-btns__header,
-header {
-  color: #fff;
-  /* position: fixed; */
-}
 .header {
   padding-top: 20px;
 }
@@ -276,7 +272,6 @@ header {
   color: #888;
   outline: 0;
 }
-/* header-left  */
 .header-left li {
   display: inline-block;
   margin-right: 50px;
@@ -294,9 +289,7 @@ header {
 }
 .header-left li :hover {
   color: #7370d8;
-} /* header-left  */
-
-/* header-right */
+}
 .header-right {
   color: #888;
   font-family: "Poppins", sans-serif;
