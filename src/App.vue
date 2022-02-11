@@ -7,7 +7,7 @@
 <script>
 import Header from "./components/Header.vue";
 import ConsultingHead from "./components/ConsultingHeadPart/ConsultingHead.vue";
-import WhatWeDo from "./components/ConsultingHeadPart/WhatWeDo.vue";
+import WhatWeDo from "./components/WhatWeDo.vue";
 
 export default {
   name: "App",
