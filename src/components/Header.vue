@@ -343,4 +343,10 @@ label {
   display: inline-block;
   float: right;
 }
+.navbar-nav a {
+  transition: 0.3s ease all;
+}
+.navbar-nav a:hover {
+  font-weight: 700;
+}
 </style>
