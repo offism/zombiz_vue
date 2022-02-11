@@ -246,26 +246,21 @@ export default {
 
 <style scoped>
 .navbar-menu {
-  position: fixed;
-  z-index: 1000;
-  /* top: 20vh; */
-  /* left: 0; */
   width: 100%;
 }
-/* .sticky {
-  position: sticky;
-  top: 0;
+.sticky {
+  position: fixed;
   z-index: 1000;
   height: auto;
-} */
+}
 nav {
   background-color: rgba(115, 112, 216, 1);
 }
-.header {
-  padding-top: 20px;
-}
 .main-head {
+  width: 100%;
   display: flex;
+  align-items: center;
+  height: 8vh;
   justify-content: space-between;
 }
 .header li a {
