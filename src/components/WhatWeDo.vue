@@ -9,7 +9,26 @@
           fugiat nulla pariatur.</small
         >
       </div>
-      <div class="wwd-footer"></div>
+      <div class="wwd-footer">
+        <div class="wwd__pacet">
+          <img
+            src="./../../public/images/home/busisness_grow.png"
+            alt="Business Grow img"
+          />
+        </div>
+        <div class="wwd__pacet">
+          <img
+            src="./../../public/images/home/consultency.png"
+            alt="Consultency img"
+          />
+        </div>
+        <div class="wwd__pacet">
+          <img
+            src="./../../public/images/home/support-logo.png"
+            alt="Support Logo img"
+          />
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -44,5 +63,20 @@ export default {
   margin: 0 auto;
   margin-top: 32 px;
   line-height: 1.8;
+}
+.wwd-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wwd__pacet {
+  margin: 15px 20px 0;
+  height: 30%;
+  width: 30%;
+  padding: 30px 20px;
+  box-shadow: 0 0 5px rgb(35 37 41 / 10%);
+  overflow-x: hidden;
+  opacity: 1;
 }
 </style>
