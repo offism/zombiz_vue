@@ -21,8 +21,20 @@
             alt="First slide"
           />
           <div class="carousel-caption">
-            <h5>Business Centre</h5>
-            <p>load 1</p>
+            <h5>
+              Consult Your
+              <hr />
+              Business
+            </h5>
+            <p>
+              We are the unique Consultancy Farm for your business solution,
+              That is ready to take challenge and knockout your business
+              problems.
+            </p>
+            <div class="consult_btns">
+              <a href="#" class="consult-head_btn">Get Started</a>
+              <a href="#" class="consult-head_btn">Explore More</a>
+            </div>
           </div>
         </div>
         <div class="carousel-item">
@@ -32,8 +44,16 @@
             alt="Third slide"
           />
           <div class="carousel-caption">
-            <h5>Usee Centre</h5>
-            <p>load 2</p>
+            <h5>
+              Consult Your
+              <hr />
+              Business With Us
+            </h5>
+            <p>
+              We are the unique Consultancy Farm for your business solution,
+              That is ready to take challenge and knockout your business
+              problems.
+            </p>
           </div>
         </div>
       </div>

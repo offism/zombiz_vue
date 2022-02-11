@@ -347,6 +347,9 @@ label {
   transition: 0.3s ease all;
 }
 .navbar-nav a:hover {
-  font-weight: 700;
+  font-weight: 600;
+}
+.nav-link i:hover {
+  cursor: pointer;
 }
 </style>
