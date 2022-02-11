@@ -4,9 +4,9 @@ console.log(main_head.offsetHeight + navbar_menu.offsetHeight , window.pageYOffs
 
 document.addEventListener('scroll', (e)=>{
 if (window.scrollY >= main_head.offsetHeight) {
-    navbar_menu.classList.add("sticky")
+    navbar_menu.classList.add("sticky-nav")
  } else {
-    navbar_menu.classList.remove("sticky");
+    navbar_menu.classList.remove("sticky-nav");
  }
 })
 

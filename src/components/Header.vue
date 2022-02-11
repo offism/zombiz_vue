@@ -246,10 +246,12 @@ export default {
 
 <style scoped>
 .navbar-menu {
+  transition: 0.3s ease all;
   width: 100%;
 }
-.sticky {
+.sticky-nav {
   position: fixed;
+  top: 0;
   z-index: 1000;
   height: auto;
 }
