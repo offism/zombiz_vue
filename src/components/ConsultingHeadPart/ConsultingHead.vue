@@ -21,20 +21,16 @@
             alt="First slide"
           />
           <div class="carousel-caption">
-            <h5>
+            <h5 class="consult-caption__title">
               Consult Your
-              <hr />
-              Business
+              <br />
+              Business With Us
             </h5>
             <p>
               We are the unique Consultancy Farm for your business solution,
               That is ready to take challenge and knockout your business
               problems.
             </p>
-            <div class="consult_btns">
-              <a href="#" class="consult-head_btn">Get Started</a>
-              <a href="#" class="consult-head_btn">Explore More</a>
-            </div>
           </div>
         </div>
         <div class="carousel-item">
@@ -44,15 +40,15 @@
             alt="Third slide"
           />
           <div class="carousel-caption">
-            <h5>
+            <h5 class="consult-caption__title">
               Consult Your
-              <hr />
-              Business With Us
+              <br />
+              Business
             </h5>
             <p>
-              We are the unique Consultancy Farm for your business solution,
-              That is ready to take challenge and knockout your business
-              problems.
+              What is a goal? Something that people want to achieve. Goals give
+              us something to focus on. They push us forward and provide a
+              constant reminder of what we want and need to achieve.
             </p>
           </div>
         </div>
@@ -100,13 +96,13 @@ export default {
   position: absolute;
   display: flex;
   top: 70%;
-  left: 7%;
+  left: 13%;
 }
 .carousel-control-next {
   position: absolute;
   display: flex;
   top: 70%;
-  left: 11%;
+  left: 18%;
 }
 .carousel-control-next span,
 .carousel-control-prev span {
@@ -144,5 +140,13 @@ export default {
   position: absolute;
   bottom: 50%;
   z-index: 3;
+}
+.consult-caption__title {
+  font-family: "Playfair Display", serif;
+  font-size: 85px;
+}
+.carousel-caption {
+  width: 70%;
+  flex-direction: column;
 }
 </style>
