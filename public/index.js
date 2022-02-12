@@ -1,3 +1,4 @@
+//Sticky Navbar
 let main_head = document.querySelector(".main-head");
 let navbar_menu = document.querySelector(".navbar-menu");
 
