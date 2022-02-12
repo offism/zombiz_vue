@@ -15,7 +15,7 @@
         </div>
         <div class="col-6 au-img">
           <img
-            src="./../../public/images/about/about-part.jpg"
+            src="./../../public/images/about/about1.jpg"
             alt="About Part img"
           />
         </div>
@@ -34,6 +34,7 @@ export default {
 .AboutUs {
   padding: 100px 0;
   min-height: 97vh;
+  background: #f9faff;
 }
 .about-us__box {
   display: flex;
@@ -73,6 +74,11 @@ export default {
   background: #fff;
   color: #7370d8;
   border: 1px solid #7370d8;
+}
+.au-img {
+  position: relative;
+  box-shadow: 0 10px 30px rgb(112 134 230 / 20%);
+  z-index: 1;
 }
 .au-img::before {
   position: absolute;
