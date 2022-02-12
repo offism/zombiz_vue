@@ -14,7 +14,7 @@
               </div>
               <div class="fc-pacet-text__box col-7">
                 <div class="row">
-                  <div class="counter">0</div>
+                  <div class="counter" data-target="3600">0</div>
                   <p class="fc-pacet__title">Days Worked</p>
                 </div>
               </div>
@@ -31,7 +31,7 @@
               </div>
               <div class="fc-pacet-text__box col-7">
                 <div class="row">
-                  <div class="counter">0</div>
+                  <div class="counter" data-target="1800">0</div>
                   <p class="fc-pacet__title">Project Finished</p>
                 </div>
               </div>
@@ -48,7 +48,7 @@
               </div>
               <div class="fc-pacet-text__box col-7">
                 <div class="row">
-                  <div class="counter">0</div>
+                  <div class="counter" data-target="7200">0</div>
                   <p class="fc-pacet__title">Coffee Cup</p>
                 </div>
               </div>
@@ -65,7 +65,7 @@
               </div>
               <div class="fc-pacet-text__box col-7">
                 <div class="row">
-                  <div class="counter">0</div>
+                  <div class="counter" data-target="6400">0</div>
                   <p class="fc-pacet__title">Client Satisfied</p>
                 </div>
               </div>
