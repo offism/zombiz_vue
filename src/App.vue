@@ -3,6 +3,7 @@
   <ConsultingHead />
   <WhatWeDo />
   <AboutUs />
+  <OurServices />
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import Header from "./components/Header.vue";
 import ConsultingHead from "./components/ConsultingHeadPart/ConsultingHead.vue";
 import WhatWeDo from "./components/WhatWeDo.vue";
 import AboutUs from "./components/AboutUs.vue";
+import OurServices from "./components/OurServices.vue";
 
 export default {
   name: "App",
@@ -18,6 +20,7 @@ export default {
     ConsultingHead,
     WhatWeDo,
     AboutUs,
+    OurServices,
   },
 };
 </script>
