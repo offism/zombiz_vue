@@ -2,12 +2,14 @@
   <Header />
   <ConsultingHead />
   <WhatWeDo />
+  <AboutUs />
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import ConsultingHead from "./components/ConsultingHeadPart/ConsultingHead.vue";
 import WhatWeDo from "./components/WhatWeDo.vue";
+import AboutUs from "./components/AboutUs.vue";
 
 export default {
   name: "App",
@@ -15,6 +17,7 @@ export default {
     Header,
     ConsultingHead,
     WhatWeDo,
+    AboutUs,
   },
 };
 </script>
