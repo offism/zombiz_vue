@@ -13,7 +13,11 @@
         </div>
         <div class="row">
           <div class="col-4 os__pacet">
-            <img src="./../../public/images/service/service1.png" alt="" />
+            <img
+              src="./../../public/images/service/service1.png"
+              class="img-fluid os-pacet__img"
+              alt=""
+            />
             <h4 class="os-pacet__title">
               <a href="#" class="btn"> Business Planning </a>
             </h4>
@@ -24,11 +28,86 @@
             >
             <a href="#" class="os-pacet__link btn">Learn More</a>
           </div>
-          <div class="col-4 os__pacet"></div>
-          <div class="col-4 os__pacet"></div>
-          <div class="col-4 os__pacet"></div>
-          <div class="col-4 os__pacet"></div>
-          <div class="col-4 os__pacet"></div>
+          <div class="col-4 os__pacet">
+            <img
+              src="./../../public/images/service/service2.png"
+              class="img-fluid os-pacet__img"
+              alt=""
+            />
+            <h4 class="os-pacet__title">
+              <a href="#" class="btn"> Business Planning </a>
+            </h4>
+            <small class="os-pacet__text"
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              repellat nobis excepturi eum quia perferendis! Labore autem
+              similique deserunt fuga.</small
+            >
+            <a href="#" class="os-pacet__link btn">Learn More</a>
+          </div>
+          <div class="col-4 os__pacet">
+            <img
+              src="./../../public/images/service/service3.png"
+              class="img-fluid os-pacet__img"
+              alt=""
+            />
+            <h4 class="os-pacet__title">
+              <a href="#" class="btn"> Business Planning </a>
+            </h4>
+            <small class="os-pacet__text"
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              repellat nobis excepturi eum quia perferendis! Labore autem
+              similique deserunt fuga.</small
+            >
+            <a href="#" class="os-pacet__link btn">Learn More</a>
+          </div>
+          <div class="col-4 os__pacet">
+            <img
+              src="./../../public/images/service/service4.png"
+              class="img-fluid os-pacet__img"
+              alt=""
+            />
+            <h4 class="os-pacet__title">
+              <a href="#" class="btn"> Business Planning </a>
+            </h4>
+            <small class="os-pacet__text"
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              repellat nobis excepturi eum quia perferendis! Labore autem
+              similique deserunt fuga.</small
+            >
+            <a href="#" class="os-pacet__link btn">Learn More</a>
+          </div>
+          <div class="col-4 os__pacet">
+            <img
+              src="./../../public/images/service/service5.png"
+              class="img-fluid os-pacet__img"
+              alt=""
+            />
+            <h4 class="os-pacet__title">
+              <a href="#" class="btn"> Business Planning </a>
+            </h4>
+            <small class="os-pacet__text"
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              repellat nobis excepturi eum quia perferendis! Labore autem
+              similique deserunt fuga.</small
+            >
+            <a href="#" class="os-pacet__link btn">Learn More</a>
+          </div>
+          <div class="col-4 os__pacet">
+            <img
+              src="./../../public/images/service/service6.png"
+              class="img-fluid os-pacet__img"
+              alt=""
+            />
+            <h4 class="os-pacet__title">
+              <a href="#" class="btn"> Business Planning </a>
+            </h4>
+            <small class="os-pacet__text"
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              repellat nobis excepturi eum quia perferendis! Labore autem
+              similique deserunt fuga.</small
+            >
+            <a href="#" class="os-pacet__link btn">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -65,6 +144,17 @@ export default {
   margin: 32px auto 55px;
   line-height: 1.8;
 }
+.os__pacet {
+  padding: 35px 10px 20px;
+  max-width: 304px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  transition: 0.3s ease all;
+}
+.os__pacet:hover {
+  box-shadow: 0 5px 20px rgb(112 134 230 / 20%);
+  opacity: 1;
+}
 .os-pacet__title a {
   color: #44454f;
   font-size: 24px;
@@ -88,5 +178,8 @@ export default {
   text-transform: capitalize;
   margin-top: 12 px;
   margin-bottom: 15 px;
+}
+.os-pacet__img {
+  height: 70px;
 }
 </style>
