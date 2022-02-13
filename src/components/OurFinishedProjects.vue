@@ -18,17 +18,24 @@
               src="./../../public/images/project/project6.jpg"
               alt=""
             />
+            <div class="img__overlay">
+              <a href="#" class="img-link__overlay">
+                <i class="lnr lnr-link"></i>
+              </a>
+              <h4 class="img-title__overlay">Aquisition Play</h4>
+              <p class="img-text__overlay">Business Planning</p>
+            </div>
           </div>
           <div class="col-8">
             <div class="row">
-              <div class="col-6">
+              <div class="col-6 ofp-box__col6">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project4.jpg"
                   alt=""
                 />
               </div>
-              <div class="col-6">
+              <div class="col-6 ofp-box__col6">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project3.jpg"
@@ -37,14 +44,14 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-6">
+              <div class="col-6 ofp-box__col6">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project2.jpg"
                   alt=""
                 />
               </div>
-              <div class="col-6">
+              <div class="col-6 ofp-box__col6">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project5.jpg"
@@ -76,6 +83,8 @@ export default {
   flex-direction: column;
 }
 .ofp-box__col4 {
+  overflow: hidden;
+  position: relative;
   padding-left: 0;
 }
 .ofp-box__title {
@@ -103,11 +112,28 @@ export default {
   text-align: left;
 }
 .oft-main__img {
+  display: block;
   overflow: hidden;
-  height: 95%;
-  /* vertical-align: middle; */
+  /* height: 96% !important; */
 }
 .oft__img {
-  margin-bottom: 31px;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease all;
+}
+.ofp-box__col6 {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.oft__img:hover {
+  transform: scale(1.1);
+}
+.img__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(115, 112, 215, 0.6);
 }
 </style>
