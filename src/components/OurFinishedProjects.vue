@@ -11,6 +11,49 @@
             business goals.</small
           >
         </div>
+        <div class="row oft-imgs-box__row">
+          <div class="col-4 ofp-box__col4">
+            <img
+              class="oft__img oft-main__img img-fluid"
+              src="./../../public/images/project/project6.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-6">
+                <img
+                  class="oft__img"
+                  src="./../../public/images/project/project4.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-6">
+                <img
+                  class="oft__img"
+                  src="./../../public/images/project/project3.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <img
+                  class="oft__img"
+                  src="./../../public/images/project/project2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-6">
+                <img
+                  class="oft__img"
+                  src="./../../public/images/project/project5.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -30,22 +73,41 @@ export default {
 }
 .ofp__box {
   display: flex;
+  flex-direction: column;
+}
+.ofp-box__col4 {
+  padding-left: 0;
 }
 .ofp-box__title {
   margin-bottom: 30px;
+  padding-left: 0;
   color: #44454f;
   font-size: 40px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
 }
 .ofp-box__text {
+  padding-left: 0;
   color: #888;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   max-width: 600px;
   line-height: 1.8;
+  margin-bottom: 80px;
 }
 .ofp-text__row {
   text-align: left;
+}
+.oft-imgs-box__row {
+  display: flex;
+  text-align: left;
+}
+.oft-main__img {
+  overflow: hidden;
+  height: 95%;
+  /* vertical-align: middle; */
+}
+.oft__img {
+  margin-bottom: 31px;
 }
 </style>
