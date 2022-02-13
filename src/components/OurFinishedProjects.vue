@@ -14,11 +14,11 @@
         <div class="row oft-imgs-box__row">
           <div class="col-4 ofp-box__col4">
             <img
-              class="oft__img oft-main__img img-fluid"
+              class="oft-main__img"
               src="./../../public/images/project/project6.jpg"
               alt=""
             />
-            <div class="img__overlay">
+            <div class="img__overlay img-main__overlay">
               <a href="#" class="img-link__overlay text-white">
                 <i class="lnr lnr-link"></i>
               </a>
@@ -26,37 +26,65 @@
               <p class="img-text__overlay">Business Planning</p>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-8 ofp__col8">
             <div class="row">
-              <div class="col-6 ofp-box__col6">
+              <div class="col-5 ofp-box__col6 ofp-box__col6-1">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project4.jpg"
                   alt=""
                 />
+                <div class="img__overlay">
+                  <a href="#" class="img-link__overlay text-white">
+                    <i class="lnr lnr-link"></i>
+                  </a>
+                  <h4 class="img-title__overlay">Aquisition Play</h4>
+                  <p class="img-text__overlay">Business Planning</p>
+                </div>
               </div>
-              <div class="col-6 ofp-box__col6">
+              <div class="col-5 ofp-box__col6 ofp-box__col6-1">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project3.jpg"
                   alt=""
                 />
+                <div class="img__overlay">
+                  <a href="#" class="img-link__overlay text-white">
+                    <i class="lnr lnr-link"></i>
+                  </a>
+                  <h4 class="img-title__overlay">Aquisition Play</h4>
+                  <p class="img-text__overlay">Business Planning</p>
+                </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-6 ofp-box__col6">
+              <div class="col-5 ofp-box__col6">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project2.jpg"
                   alt=""
                 />
+                <div class="img__overlay">
+                  <a href="#" class="img-link__overlay text-white">
+                    <i class="lnr lnr-link"></i>
+                  </a>
+                  <h4 class="img-title__overlay">Aquisition Play</h4>
+                  <p class="img-text__overlay">Business Planning</p>
+                </div>
               </div>
-              <div class="col-6 ofp-box__col6">
+              <div class="col-5 ofp-box__col6">
                 <img
                   class="oft__img"
                   src="./../../public/images/project/project5.jpg"
                   alt=""
                 />
+                <div class="img__overlay">
+                  <a href="#" class="img-link__overlay text-white">
+                    <i class="lnr lnr-link"></i>
+                  </a>
+                  <h4 class="img-title__overlay">Aquisition Play</h4>
+                  <p class="img-text__overlay">Business Planning</p>
+                </div>
               </div>
             </div>
           </div>
@@ -82,10 +110,19 @@ export default {
   display: flex;
   flex-direction: column;
 }
+
+.ofp__col8 .row {
+  margin: 0;
+  width: 100%;
+}
+.ofp-box__col6-1 {
+  margin-bottom: 40px;
+}
 .ofp-box__col4 {
+  height: 97%;
+  padding: 0;
   overflow: hidden;
   position: relative;
-  padding-left: 0;
 }
 .ofp-box__title {
   margin-bottom: 30px;
@@ -113,8 +150,9 @@ export default {
 }
 .oft-main__img {
   display: block;
-  overflow: hidden;
-  /* height: 96% !important; */
+  height: 97% !important;
+  width: 100%;
+  transition: 0.3s ease all;
 }
 .oft__img {
   width: 100%;
@@ -122,16 +160,28 @@ export default {
   transition: 0.3s ease all;
 }
 .ofp-box__col6 {
+  padding: 0;
+  margin: 0 20px 20px;
+  position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
 }
-.oft__img:hover {
+.ofp-box__col4:hover > * {
+  overflow: hidden;
+}
+.ofp-box__col4:hover > img {
   transform: scale(1.1);
 }
+.ofp-box__col6:hover > img {
+  transform: scale(1.1);
+}
+.img-main__overlay {
+  height: 100%;
+}
 .img__overlay {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
   position: absolute;
+  overflow: hidden;
   width: 100%;
   height: 100%;
   top: 0;
@@ -147,10 +197,10 @@ export default {
 }
 .img__overlay > * {
   transition: transform 0.25s;
-  transform: scale(1.6);
-}
-.img__overlay > *:hover {
   transform: scale(0);
+}
+.img__overlay:hover > * {
+  transform: scale(1.6);
 }
 .img__overlay:hover {
   opacity: 1;
@@ -159,12 +209,12 @@ export default {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 11px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .img-link__overlay {
-  font-size: 30px;
+  font-size: 24px;
 }
 .img-text__overlay {
-  font-size: 20px;
+  font-size: 16px;
 }
 </style>
