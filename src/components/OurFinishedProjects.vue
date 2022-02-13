@@ -19,7 +19,7 @@
               alt=""
             />
             <div class="img__overlay">
-              <a href="#" class="img-link__overlay">
+              <a href="#" class="img-link__overlay text-white">
                 <i class="lnr lnr-link"></i>
               </a>
               <h4 class="img-title__overlay">Aquisition Play</h4>
@@ -129,11 +129,42 @@ export default {
   transform: scale(1.1);
 }
 .img__overlay {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
+  color: #fff;
   background: rgba(115, 112, 215, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s ease all;
+}
+.img__overlay > * {
+  transition: transform 0.25s;
+  transform: scale(1.6);
+}
+.img__overlay > *:hover {
+  transform: scale(0);
+}
+.img__overlay:hover {
+  opacity: 1;
+}
+.img-title__overlay {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 11px;
+  font-size: 24px;
+}
+.img-link__overlay {
+  font-size: 30px;
+}
+.img-text__overlay {
+  font-size: 20px;
 }
 </style>
