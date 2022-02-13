@@ -10,8 +10,34 @@
           >
         </div>
         <div class="row oet-team__members">
-          <div class="col-3 oet-team__member">
-            <img src="./../../public/images/team/team.jpg" alt="" />
+          <div class="oet-team__member">
+            <img src="./../../public/images/team/team1.jpg" alt="" />
+            <div class="oet-team-member-img__overlay">
+              <h4 class="oet-team-member__name">Kevin Thompson</h4>
+              <small class="oet-team-member__job">Head,Legal Advising</small>
+              <a href="#" class="oet-team-member__link">learn more</a>
+            </div>
+          </div>
+          <div class="oet-team__member mx-1">
+            <img src="./../../public/images/team/team1.jpg" alt="" />
+            <div class="oet-team-member-img__overlay">
+              <h4 class="oet-team-member__name">Stiven Darrens</h4>
+              <small class="oet-team-member__job"
+                >Director,Finance Solution</small
+              >
+              <a href="#" class="oet-team-member__link">learn more</a>
+            </div>
+          </div>
+          <div class="oet-team__member">
+            <img src="./../../public/images/team/team1.jpg" alt="" />
+            <div class="oet-team-member-img__overlay">
+              <h4 class="oet-team-member__name">Tom Hanks</h4>
+              <small class="oet-team-member__job">Founder & Ceo</small>
+              <a href="#" class="oet-team-member__link">learn more</a>
+            </div>
+          </div>
+          <div class="oet-team__member" style="margin-left: 4px">
+            <img src="./../../public/images/team/team1.jpg" alt="" />
             <div class="oet-team-member-img__overlay">
               <h4 class="oet-team-member__name">Kevin Thompson</h4>
               <small class="oet-team-member__job">Head,Legal Advising</small>
@@ -58,7 +84,7 @@ export default {
 .oet-team__member {
   padding: 0;
   position: relative;
-
+  width: 24%;
   transition: 0.3s ease all;
 }
 .oet-team__member:hover {
