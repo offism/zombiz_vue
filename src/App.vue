@@ -5,6 +5,7 @@
   <AboutUs />
   <OurServices />
   <FirstCounter />
+  <OurFinishedProjects />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Header from "./components/Header.vue";
 import ConsultingHead from "./components/ConsultingHeadPart/ConsultingHead.vue";
 import WhatWeDo from "./components/WhatWeDo.vue";
 import AboutUs from "./components/AboutUs.vue";
+import OurFinishedProjects from "./components/OurFinishedProjects.vue";
 import FirstCounter from "./components/FirstCounter.vue";
 
 export default {
@@ -22,6 +24,7 @@ export default {
     WhatWeDo,
     AboutUs,
     FirstCounter,
+    OurFinishedProjects,
   },
 };
 </script>

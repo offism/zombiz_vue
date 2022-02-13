@@ -15,7 +15,7 @@ if (window.scrollY >= main_head.offsetHeight) {
 //Counter 
 
 let counters = document.querySelectorAll('.counter')
-const speed = 200
+const speed = 820
 
 counters.forEach(counter => {
 const updateCount = ()=>{
