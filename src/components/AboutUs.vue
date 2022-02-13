@@ -57,6 +57,7 @@ export default {
   margin-bottom: 20px;
 }
 .au-box__link {
+  border-radius: 0;
   display: flex;
   align-items: center;
   justify-content: center;
