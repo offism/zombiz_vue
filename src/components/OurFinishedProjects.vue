@@ -89,6 +89,9 @@
             </div>
           </div>
         </div>
+        <div class="row ofp-main-link__row">
+          <a href="#" class="ofp-main__link">View All</a>
+        </div>
       </div>
     </div>
   </section>
@@ -216,5 +219,31 @@ export default {
 }
 .img-text__overlay {
   font-size: 16px;
+}
+.ofp-main-link__row {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.ofp-main__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7370d8;
+  width: 185px;
+  height: 52px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+}
+.ofp-main__link:hover {
+  background: #fff;
+  color: #7370d8;
+  border: 1px solid #7370d8;
 }
 </style>
